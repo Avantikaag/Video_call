@@ -1,0 +1,24 @@
+{
+  "name": "livestream-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "peer": "^0.5.3",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "node": "16.4.1",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "Avantika Agrawal",
+  "license": ""
+}
